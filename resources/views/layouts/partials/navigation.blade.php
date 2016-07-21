@@ -22,8 +22,14 @@
 
 			<!-- Right Side Of Navbar -->
 			<ul class="nav navbar-nav navbar-right">
-				<li ><a href="{{ url('/signin') }}">Sign In</a></li>
-                <li ><a href="{{ url('/signup') }}">Sign Up</a></li>
+				@if (Auth::check())
+					<li><a href="#">{{Auth::user()->username}}</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="{{route('auth.signout')}}">Sign out</a></li>
+				@else
+					<li ><a href="{{ url('/signin') }}">Sign In</a></li>
+                	<li ><a href="{{ url('/signup') }}">Sign Up</a></li>
+                @endif
 			</ul>
 		</div>
 	</div>
