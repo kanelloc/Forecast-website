@@ -34,3 +34,8 @@ Route::group(['middleware'	=>	'isAdmin'], function(){
 	Route::get('/adminpanel',[
 		'uses'	=>	'AdminController@getAdminPanel']);
 });
+//----------------------------Forecast-------------------------------------------
+Route::post('/',[
+	'uses'	=>'HomeController@postSearch',
+	'as'	=>	'forecast.postSearch']);
+
