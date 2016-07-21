@@ -29,4 +29,8 @@ Route::post('/signup',[
 Route::get('/signout',[
 	'uses'	=>	'Auth\AuthController@getSignout',
 	'as'	=>	'auth.signout']);
-
+//----------------------------Admin Layer---------------------------------------
+Route::group(['middleware'	=>	'isAdmin'], function(){
+	Route::get('/adminpanel',[
+		'uses'	=>	'AdminController@getAdminPanel']);
+});
