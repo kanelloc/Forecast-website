@@ -11,7 +11,7 @@ This is a simple login/register page to use it as boilerplate for your site.<br 
 * Admin Content management system ready<br />
 	* AdminMiddleware so you use as you want.Just make a middleware group and use 'isAdmin'<br />
 * Users sign in/register ready<br />
- 	* Flash messages for validation.
+ 	* Flash messages for validation.<br />
 ## Official Documentation
 
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
