@@ -6,12 +6,13 @@
 [![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-This is a simple login/register page to use it as boilerplate for your site.<br />
-* Migrations ready<br />
-* Admin Content management system ready<br />
-	* AdminMiddleware so you use as you want.Just make a middleware group and use 'isAdmin'<br />
-* Users sign in/register ready<br />
- 	* Flash messages for validation.<br />
+## Development tools:
+<br />
+* Laravel 5.2<br />
+* SaSS<br />
+* Google maps API<br />
+* Dark Sky Forecast API<br />
+* Images and some front-end code templates from (https://www.themezy.com) 
  	
 ## Official Documentation
 
