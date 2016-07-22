@@ -11,7 +11,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
-                 Authentication Auto
+                 Forecast Test
             </a>
 		</div>
 		<div class="collapse navbar-collapse" id="app-navbar-collapse">
