@@ -29,7 +29,7 @@
 						@foreach($weeklyArray as $week)
 							<div class="forecast">
 								<div class="forecast-header">
-									<div class="day">{{date("D", $week['time'])}}</div>
+									<div class="day">{{date("D j", $week['time'])}}</div>
 								</div> <!-- .forecast-header -->
 								<div class="forecast-content">
 									<div class="forecast-icon">
